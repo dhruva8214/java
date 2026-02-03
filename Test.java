@@ -19,7 +19,7 @@ public class Test {
     }
 
     // Division
-    static void div(int a, int b) {
+    static void div(int a, int b) 
         if (b != 0) {
             double res = (double) a / b;
             System.out.println("Division result: " + res);
@@ -29,7 +29,7 @@ public class Test {
     }
 
     // Main method
-    public static void main(String[] args) {
+    public static void main(String[] args) 
         int x = 589;
         int y = 10;
 
